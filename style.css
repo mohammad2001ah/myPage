@@ -1,5 +1,4 @@
-.head{
-    font-size: 32px;
+.firstSentence{
     background-color:#b87333;
     color:wheat;
     padding: 25px ;
@@ -14,39 +13,44 @@
     grid-template-columns: repeat(3,auto);
     padding-left: 50px;
     padding-right: 50px;
-    gap: 115px;
+    gap: 85px;
     width: auto;
 }
 
 .places{
-   text-transform:uppercase;
-   text-align: center; 
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform:uppercase;
+    text-align: center;
+    height: 100%; 
 }
 img{
     border-radius: 51px;
-    width: 192px;
+    width: 100%;
     height: 200px;   
+    margin: 0 auto;
 }
-#info{
+.info{
     border-radius: 20px;
     padding: 10px;
     background-color:#af6d5f ;
     text-align: center;
     margin: 10px;
     color: white;
+    flex-grow: 1;
 }
 button{
- background-color: #b87333;
- color: wheat;
- border: none;
- border-radius: 15px;
- padding: 10px 20px;
- margin: auto;
- font-size: 20px;
- cursor: pointer;
- box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
-
+    background-color: #b87333;
+    color: wheat;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top:10px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    align-self: center;
 }
 button:hover{
     background-color:#3b1a06;
